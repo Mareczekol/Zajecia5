@@ -132,12 +132,12 @@ while True:
         with open('account.txt', 'w') as f:
             f.write(str(account))
 
-        # save magazyn to inventory.txt file
+        # zapisz stan magazynu do pliku inventory.txt
         with open('inventory.txt', 'w') as f:
             for product, details in magazyn.items():
                 f.write(f"{product},{details[0]},{details[1]}\n")
 
-        # save actions to actions.txt file
+        # zapisz wykonane akcje do pliku actions.txt
         with open('actions.txt', 'w') as f:
             for action in actions:
                 f.write(str(action) + '\n')
