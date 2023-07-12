@@ -1,3 +1,6 @@
 .idea
 .venv/
 patch.py
+account.txt
+inventory.txt
+actions.txt
